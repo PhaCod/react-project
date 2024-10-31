@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.Navbar{
+    padding: 20px 0px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Outfit;
+}
+.Navbar.logo{
+    width: 150px;
+
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    front-size: 1.8px;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.Navbar button{
+    background:transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition:0.3s;
+}
+.Navbar button:hover{
+    background: tomato;
+    color: white;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.Navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
